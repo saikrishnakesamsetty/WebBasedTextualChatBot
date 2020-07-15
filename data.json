@@ -1,0 +1,40 @@
+{"intents": 
+  [
+	{"tag": "unknown",
+         "patterns": [],
+         "responses": ["I'm not yet trained fully. Could you repeat that again.", "I didn't get you, please tell me again."]
+        },
+        {"tag": "greeting",
+         "patterns": ["hay", "hi", "hai hello", "how are you", "is anyone there?", "hello", "good day", "hi bot how are you", "hai bot","hello bot"],
+         "responses": ["Good to see you again. How can I help you?", "Hi there, how can I help you?", "Hello, thanks for visiting. How can I help you?"]
+        },
+        {"tag": "goodbye",
+         "patterns": ["bye", "See you later", "Goodbye", "stop", "quit", "No thanks", "no i'm ok with this","no thanks for that", "good bye", "no"],
+         "responses": ["Thanks for visiting, have a nice day!", "Have a nice day!", "Bye! I hope you will be back again."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help! Is anything required?", "My pleasure.  Is anything required?"]
+        },
+        {"tag": "hours",
+         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+         "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+        {"tag": "opentoday",
+         "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+         "responses": ["We're open every day from 9am to 9pm", "Our hours are 9am to 9pm every day"]
+        },
+	{"tag": "openaccount",
+         "patterns": ["How Can I open a new bank account", "Opening a bank account", "where can I open a bank account", "information of opening a new bank account", "how can i create a bank account?", "How to open a bank account"],
+         "responses": ["You can Open by Visiting your nearest branch or you can apply online."]
+        },
+	{"tag": "onlineaccount",
+         "patterns": ["How Can I open a new bank account through online", "steps to open a bank account online",  "information of opening a new bank account online", "How can I apply online", "online"],
+         "responses": ["You can submit the information form and address our website, Our representative will reach you and helps in completing the KYC process."]
+        },
+	{"tag": "loanprices",
+         "patterns": ["What are the current loan interests avaliable?", "Loans and their interest rates", "what are the avaliable loan interest rates","information about loan or loans interest rate"],
+         "responses": ["For personal loans the interest rate starts from 13%, for home loans interest rate starts from 10%. For more details you can call our customer care representative."]
+        }
+   ]
+}
